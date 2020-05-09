@@ -2,9 +2,3 @@
 learn to study
 The management system of online students' homework score based on B / S structure V1.0
 
-使用方法
-1，将 homeworksys 文件夹放入本地服务器根目录
-2，在mysql中新建 homeworksys 数据库，排序方式为 utf8_genneral_ci, 复制 bak.sql 文件中的sql语句，在 homeworksys 数据库中运行。
-3，在 mysql 中新建 homeworksys 用户，密码设置为 123456789。数据库连接文件为源码中的conn.php文件
-4，访问 http://localhost/homeworksys/ 网址，
-5，使用 初始数据.xlxs 文件中的 账户信息数据登陆系统，测试是否正常运行。
