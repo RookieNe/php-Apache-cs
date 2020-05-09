@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>学生作业成绩管理系统</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body background="./img/memphis-mini.png">
+<div class="login">
+    <div class="loginmain">
+        <h4>欢迎来到学生作业管理系统</h4>
+        <form action="login.php" method="post">
+            <ul>
+                <li>
+                    登 &nbsp; 陆: &nbsp;<input type="text" name="user_id" placeholder="请输入学号或教师号" required /><br />
+                </li>
+                <li>
+                    密 &nbsp; 码: &nbsp;<input type="password" name="pwd" placeholder="请输入密码" required /><br />
+                </li>
+                <li>
+                    选择您的用户类别：
+                    <select name="user_kind">
+                        <option value="admin">管理员</option>
+                        <option value="teacher">教师</option>
+                        <option value="student">学生</option>
+                    </select>
+                    <br />
+                </li>
+                <li>
+                    <input type="submit" name="subnit" value="登陆" />
+                    &nbsp; &nbsp; &nbsp;
+                    <input type="reset" name="reset" value="重置"/>
+                    <br />
+                </li>
+            </ul>
+
+        </form>
+    </div>
+</div>
+</body>
+</html>

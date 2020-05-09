@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>增加课程</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+
+<body background="../img/background.png">
+<div class="add_course">
+    <div class="add_coursemain">
+        <h1>增加课程信息</h1>
+        <form action="./add_course.php " method="post">
+        <ul>
+        <li>
+            课程ID: &nbsp; <input type="number" name="id" placeholder="请输入课程ID" required /><br />
+        </li>
+        <li>
+	        任课教师I: &nbsp;<input type="number" name="teacherid" placeholder="请输入教师ID" required/><br />
+        </li>
+        <li>
+	        姓名: &nbsp; <input type="text" name="name" placeholder="请输入课程名" required /><br />
+        </li>
+        <li>
+	        <input type="submit" value="提交" /> &nbsp;&nbsp; <input type="reset" value="重置">
+        </li>
+        </ul>
+        </form>
+    </div>
+</div>
+</body>
+</html>

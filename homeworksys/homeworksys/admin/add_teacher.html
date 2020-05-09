@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>增加教师</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+
+<body background="../img/background.png">
+<div class="add_teacher">
+    <div class="add_teachermain">
+    <h1>增加教师信息</h1>
+    <form action="./add_teacher.php" method="post">
+        <ul>
+        <li>
+	        ID: &nbsp; <input type="number" name="id" placeholder="请输入ID" required /><br />
+        </li>
+        <li>
+	        姓名: &nbsp; <input type="text" name="name" placeholder="请输入姓名" required /><br />
+        </li>
+        <li>
+	        密码: &nbsp; <input type="text" name="pwd" placeholder="请输入密码" required /><br />
+        </li>
+        <li>
+	        办公室: &nbsp; <input type="text" name="office" placeholder="请输入办公室地址，可不填写" /><br />
+        </li>
+        <li>
+	        电话: &nbsp; <input type="text" name="tel" placeholder="请输入电话,没有可不填" /><br />
+	    </li>
+        <li>
+            <input type="submit" value="提交" /> &nbsp;&nbsp; <input type="reset" value="重置">
+        </li>
+        </ul>
+    </form>
+    </div>
+</div>
+</body>
+</html>
